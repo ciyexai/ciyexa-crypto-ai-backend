@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example # Keep .env.example for reference
+
+# IDEs and editors
+.idea/                  # IntelliJ IDEA / PyCharm
+.vscode/                # VS Code
+*.sublime-project       # Sublime Text
+*.sublime-workspace
+.DS_Store               # macOS
+Thumbs.db               # Windows
+
+# FastAPI / Uvicorn specific
+.uvicorn_pid
+
+# Logs
+*.log
+logs/
+
+# Database files (if any local SQLite or similar)
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# Other temporary files
+*.tmp
+*.swp
+*~
