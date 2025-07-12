@@ -389,6 +389,6 @@ Ciyexa is designed for continuous evolution! Consider these exciting next steps:
 
 ## 🙏 Contributing
 
-  
+![enter image description here](https://olive-chemical-haddock-701.mypinata.cloud/ipfs/bafybeiebsixvvgjqzflqqtid36eijdzsjeg7oltdvv4gkeprvrx6uwfxk4)
 
 We welcome contributions! Feel free to fork the repository, open issues, or submit pull requests. Let's build the future of crypto AI together!
