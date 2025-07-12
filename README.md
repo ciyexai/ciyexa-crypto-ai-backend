@@ -129,7 +129,7 @@ Configure your environment variables. Create a `.env` file in the `ciyexa_backen
 
 LLM_API_BASE_URL="http://localhost:3000/api/chat"
 
-# COINGECKO_API_KEY="YOUR_COINGECKO_API_KEY" # Uncomment and add if you have a CoinGecko Pro API key
+**COINGECKO_API_KEY="YOUR_COINGECKO_API_KEY" # Uncomment and add if you have a CoinGecko Pro API key**
 
 
   
@@ -218,6 +218,35 @@ bash:
 
 Your FastAPI backend will be accessible at `http://localhost:8000`. The interactive API documentation (Swagger UI) is available at `http://localhost:8000/docs`.
 
+## 🧪 Testing
+
+  
+
+To ensure the reliability and correctness of the Ciyexa backend, we use `pytest` for our test suite.
+
+  
+
+### Running Tests
+
+  
+
+1. **Install Test Dependencies**: Make sure you have the testing dependencies installed. If you followed the setup steps, they should already be in your `requirements.txt`.
+
+bash:
+
+    pip install pytest pytest-asyncio pytest-mock
+
+2. **Navigate to the Project Root**: Ensure your terminal is in the `ciyexa_backend` directory (where `main.py` and the `tests` folder are located).
+
+3. **Execute Tests**: Run `pytest` from your terminal:
+
+bash:
+
+    pytest
+
+  
+
+This will discover and run all tests in the `tests/` directory. The tests are designed to mock external API calls (to the LLM and CoinGecko) to ensure fast, isolated, and reliable results without requiring network access or external services to be running.
   
 
 ## 🚀 How to Use: Interact with Ciyexa!
